@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		AFD455052C2068E6008409AD /* myDayMojisApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD455042C2068E6008409AD /* myDayMojisApp.swift */; };
-		AFD455072C2068E6008409AD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD455062C2068E6008409AD /* ContentView.swift */; };
+		AFD455072C2068E6008409AD /* myDayMojisTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD455062C2068E6008409AD /* myDayMojisTabView.swift */; };
 		AFD455092C2068E6008409AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFD455082C2068E6008409AD /* Assets.xcassets */; };
 		AFD4550C2C2068E6008409AD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFD4550B2C2068E6008409AD /* Preview Assets.xcassets */; };
 		AFD455162C2068E6008409AD /* myDayMojisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD455152C2068E6008409AD /* myDayMojisTests.swift */; };
 		AFD455202C2068E7008409AD /* myDayMojisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD4551F2C2068E7008409AD /* myDayMojisUITests.swift */; };
 		AFD455222C2068E7008409AD /* myDayMojisUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD455212C2068E7008409AD /* myDayMojisUITestsLaunchTests.swift */; };
+		AFD4552F2C206B8F008409AD /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD4552E2C206B8F008409AD /* HomeView.swift */; };
+		AFD455312C206BAC008409AD /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD455302C206BAC008409AD /* CalendarView.swift */; };
+		AFD455332C206BC9008409AD /* TrophiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD455322C206BC9008409AD /* TrophiesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,7 @@
 /* Begin PBXFileReference section */
 		AFD455012C2068E6008409AD /* myDayMojis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myDayMojis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFD455042C2068E6008409AD /* myDayMojisApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myDayMojisApp.swift; sourceTree = "<group>"; };
-		AFD455062C2068E6008409AD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AFD455062C2068E6008409AD /* myDayMojisTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myDayMojisTabView.swift; sourceTree = "<group>"; };
 		AFD455082C2068E6008409AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AFD4550B2C2068E6008409AD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AFD455112C2068E6008409AD /* myDayMojisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myDayMojisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +47,9 @@
 		AFD4551B2C2068E7008409AD /* myDayMojisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myDayMojisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFD4551F2C2068E7008409AD /* myDayMojisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myDayMojisUITests.swift; sourceTree = "<group>"; };
 		AFD455212C2068E7008409AD /* myDayMojisUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myDayMojisUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AFD4552E2C206B8F008409AD /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		AFD455302C206BAC008409AD /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		AFD455322C206BC9008409AD /* TrophiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrophiesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,9 +101,12 @@
 			isa = PBXGroup;
 			children = (
 				AFD455042C2068E6008409AD /* myDayMojisApp.swift */,
-				AFD455062C2068E6008409AD /* ContentView.swift */,
+				AFD455062C2068E6008409AD /* myDayMojisTabView.swift */,
 				AFD455082C2068E6008409AD /* Assets.xcassets */,
 				AFD4550A2C2068E6008409AD /* Preview Content */,
+				AFD4552E2C206B8F008409AD /* HomeView.swift */,
+				AFD455302C206BAC008409AD /* CalendarView.swift */,
+				AFD455322C206BC9008409AD /* TrophiesView.swift */,
 			);
 			path = myDayMojis;
 			sourceTree = "<group>";
@@ -257,8 +266,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFD455072C2068E6008409AD /* ContentView.swift in Sources */,
+				AFD455072C2068E6008409AD /* myDayMojisTabView.swift in Sources */,
 				AFD455052C2068E6008409AD /* myDayMojisApp.swift in Sources */,
+				AFD455332C206BC9008409AD /* TrophiesView.swift in Sources */,
+				AFD455312C206BAC008409AD /* CalendarView.swift in Sources */,
+				AFD4552F2C206B8F008409AD /* HomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
