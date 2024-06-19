@@ -9,7 +9,7 @@ import SwiftUI
 
 struct CalendarView: View {
     var body: some View {
-        NavigationView {
+        NavigationStack {
             Text("Calendar View")
                 .navigationTitle("🗓️ Calendar")
         }

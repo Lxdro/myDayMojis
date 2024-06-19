@@ -9,7 +9,7 @@ import SwiftUI
 
 struct TrophiesView: View {
     var body: some View {
-        NavigationView {
+        NavigationStack {
             Text("Trophies View")
                 .navigationTitle("🏆 Trophies")
         }
